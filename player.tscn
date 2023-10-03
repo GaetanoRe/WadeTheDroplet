@@ -1,0 +1,38 @@
+[gd_scene load_steps=5 format=3 uid="uid://cpec1c6ds7vla"]
+
+[ext_resource type="Script" path="res://playerMovement.cs" id="1_3578w"]
+[ext_resource type="Texture2D" uid="uid://c68tox6khydeu" path="res://WadeTestt.png" id="2_56q6g"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_s1pve"]
+radius = 2.8877
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_bt1u2"]
+radius = 7.84875
+
+[node name="Player" type="CharacterBody2D"]
+collision_layer = 2
+collision_mask = 13
+script = ExtResource("1_3578w")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("2_56q6g")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-2, 4)
+scale = Vector2(5.35385, 9.43732)
+shape = SubResource("CircleShape2D_s1pve")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(2, 2)
+
+[node name="HazardDetector" type="Area2D" parent="."]
+collision_layer = 0
+collision_mask = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HazardDetector"]
+position = Vector2(-2, 4)
+scale = Vector2(-1.4213, 3.03347)
+shape = SubResource("CircleShape2D_bt1u2")
+
+[connection signal="area_entered" from="HazardDetector" to="." method="_OnHazardDetectorAreaEntered"]
