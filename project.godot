@@ -11,9 +11,13 @@ config_version=5
 [application]
 
 config/name="Wade_The_Droplet"
-run/main_scene="res://sample_scene.tscn"
+run/main_scene="res://Scenes/Levels/sample_scene.tscn"
 config/features=PackedStringArray("4.1", "C#", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/stretch/scale=2.0
 
 [dotnet]
 

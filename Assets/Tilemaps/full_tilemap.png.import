@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c68tox6khydeu"
-path="res://.godot/imported/WadeTestt.png-0ec328200837edfea293b0516f67deba.ctex"
+uid="uid://11nqh1iqohkg"
+path="res://.godot/imported/full_tilemap.png-b665ed722ab74f30749eccec0541fb43.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://WadeTestt.png"
-dest_files=["res://.godot/imported/WadeTestt.png-0ec328200837edfea293b0516f67deba.ctex"]
+source_file="res://Assets/Tilemaps/full_tilemap.png"
+dest_files=["res://.godot/imported/full_tilemap.png-b665ed722ab74f30749eccec0541fb43.ctex"]
 
 [params]
 

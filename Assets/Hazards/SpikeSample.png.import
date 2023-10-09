@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://08f45wd8ru5v"
-path="res://.godot/imported/Cola_Bottle_Test.png-67523f602c2bcdf9906a981651c42a8d.ctex"
+uid="uid://co2hr3ylwajnx"
+path="res://.godot/imported/SpikeSample.png-04d252e7e963d82effa9bacecb13ebf8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Cola_Bottle_Test.png"
-dest_files=["res://.godot/imported/Cola_Bottle_Test.png-67523f602c2bcdf9906a981651c42a8d.ctex"]
+source_file="res://Assets/Hazards/SpikeSample.png"
+dest_files=["res://.godot/imported/SpikeSample.png-04d252e7e963d82effa9bacecb13ebf8.ctex"]
 
 [params]
 

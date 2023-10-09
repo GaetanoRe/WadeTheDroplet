@@ -1,12 +1,20 @@
-﻿Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wade_The_Droplet", "Wade_The_Droplet.csproj", "{E58919B4-159A-414B-82FF-CDB1E97F4EA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E554570D-2EBD-44EE-8C6F-B83E3FFAADD8}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\Player\StateMAchine\States\State.cs = Scripts\Player\StateMAchine\States\State.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-	Debug|Any CPU = Debug|Any CPU
-	ExportDebug|Any CPU = ExportDebug|Any CPU
-	ExportRelease|Any CPU = ExportRelease|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		ExportDebug|Any CPU = ExportDebug|Any CPU
+		ExportRelease|Any CPU = ExportRelease|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E58919B4-159A-414B-82FF-CDB1E97F4EA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -15,5 +23,11 @@ Global
 		{E58919B4-159A-414B-82FF-CDB1E97F4EA2}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
 		{E58919B4-159A-414B-82FF-CDB1E97F4EA2}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
 		{E58919B4-159A-414B-82FF-CDB1E97F4EA2}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFF13895-9068-4D03-A049-A9A85035ECAD}
 	EndGlobalSection
 EndGlobal

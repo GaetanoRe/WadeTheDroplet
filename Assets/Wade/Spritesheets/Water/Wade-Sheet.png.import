@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://co2hr3ylwajnx"
-path="res://.godot/imported/SpikeSample.png-d60d142c95d2a07481a515dddea82483.ctex"
+uid="uid://cvyl13af2bvre"
+path="res://.godot/imported/Wade-Sheet.png-4e7a1ba84989e24e549e9920e4d120d1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SpikeSample.png"
-dest_files=["res://.godot/imported/SpikeSample.png-d60d142c95d2a07481a515dddea82483.ctex"]
+source_file="res://Assets/Wade/Spritesheets/Water/Wade-Sheet.png"
+dest_files=["res://.godot/imported/Wade-Sheet.png-4e7a1ba84989e24e549e9920e4d120d1.ctex"]
 
 [params]
 
